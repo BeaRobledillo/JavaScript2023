@@ -1,0 +1,62 @@
+/* Estilo para la cabecera */
+header {
+  background-color: lightpink;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilo para el menú */
+nav {
+  background-color: lightsalmon;
+  height: 40px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilo para los elementos del menú */
+nav a {
+  margin: 10px;
+}
+
+/* Estilo para el wrapper */
+#wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Estilo para los elementos dentro del wrapper */
+.element {
+  background-color: lightblue;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para la botonera */
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Estilo para el input */
+input[type="text"] {
+  margin: 0 10px;
+  padding: 5px;
+}
+
+/* Estilo para los mensajes de error */
+.error-message {
+  background-color: lightseagreen;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 10px 0;
+}

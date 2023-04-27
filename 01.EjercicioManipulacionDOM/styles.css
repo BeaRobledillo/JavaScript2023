@@ -1,0 +1,90 @@
+body {
+	line-height: 1.25;
+	font-size: 2rem;
+}
+
+p {
+	margin-bottom: 1.25rem;
+}
+
+main {
+	min-height: 90vh;
+	display: grid;
+	place-items: center;
+	display: grid;
+	place-items: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+#color-flipper {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.container {
+	text-align: center;
+}
+
+.container p {
+	padding: 1.5rem 2rem;
+	border-radius: 10rem;
+	margin-bottom: 2.5rem;
+}
+
+.btn-hero {
+	text-transform: uppercase;
+	background: transparent;
+	display: inline-block;
+	font-weight: 700;
+	cursor: pointer;
+	border-radius: 25rem;
+	font-size: 1.5rem;
+	padding: 0.75rem 1.25rem;
+}
+
+.btn-hero:hover {
+	border-radius: 25rem;
+}
+
+@media screen and (max-width: 682px) {
+	.container p {
+		margin: auto 15px;
+	}
+
+	.btn-hero {
+		margin-top: 2.5rem;
+	}
+
+	#color-flipper {
+		padding-left: 20px;
+		margin-left: 1rem;
+	}
+}
+
+@media screen and (max-width: 452px) {
+	.container p {
+		font-size: 1.5rem;
+		padding: 1rem;
+	}
+
+	#color-flipper {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	.container p {
+		font-size: 1rem;
+		padding: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 282px) {
+	#color-flipper {
+		display: none;
+	}
+
+}
